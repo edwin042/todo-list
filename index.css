@@ -1,0 +1,174 @@
+body{
+	margin:0;
+	padding: 0;
+	background: grey;
+}
+.body{
+	margin:4px;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+}
+#menu{
+	width: 15%;
+	margin:1%;
+	padding:1px;
+	border: 4px solid black;
+	background: url('wall.jpg');
+	box-shadow: 1px 1px 2px black;
+	height: 600px;
+}
+.myName{
+	text-align: center;
+	cursor: pointer;
+	padding:2% 1%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	box-shadow: 4px 4px 4px black;
+	font-family: 'Saira';
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+ul{
+	list-style: none;
+	margin-top: 40%;
+}
+ul li{
+	cursor: pointer;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-left: -25%;
+	text-align: center;
+	padding: 7%;
+	margin-top:6%;
+	box-shadow: 2px 2px 2px grey;
+	font-family: 'Saira';
+}
+.creatingItems{
+	padding:7%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+	margin-top: 100%;
+	cursor: pointer;
+	font-family: 'Saira';
+}
+#content{
+	width:80%;
+	margin:1%;
+	padding: 1%;
+	border: 4px solid black;
+	border-radius: 1%;
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+	background: url('wall.jpg');
+}
+.addThis{
+	border-top:2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: row;
+}
+#addingItems{
+	cursor: pointer;
+	margin:1%;
+	border: 2px solid grey;
+	border-radius: 20%;
+	padding: 10px;
+	background: linear-gradient(rgb(236,236,236), white);
+	transition: transform 0.5s;
+}
+#addingItems:hover{
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.addThis input{
+	width:800px;
+	height: 30px;
+	background: inherit;
+	border:1px solid black;
+	border-radius: 3%;
+	font-weight: bold;
+	font-size: 20px;
+	margin:1%;
+	padding-left: 5%;
+}
+.addThis input:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+#lists{
+	font-size: 18px;
+	font-family: 'Saira';
+}
+#myList{
+	list-style: none;
+	width:80%;
+	height: 1%;
+	margin:2px;
+	padding: 2%;
+	background: white;
+}
+.cross{
+	color:red;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left:90%;
+	border: none;
+}
+#createElements{
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	border:5px dashed black;
+	background: rgba(195,195,195,0.5);
+	width:50%;
+	height:14%;
+	display: flex;
+	flex-direction: column;
+}
+#items{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2% 1%;
+}
+.enterBtn{
+	padding: 1% 1%;
+	font-size: 18px;
+	font-weight: bold;
+	border:2px solid red;
+	background: red;
+	cursor: pointer;
+}
+#myAccount{
+	font-family: 'Saira';
+	position: absolute;
+	top: 1%;
+	left: 12%;
+	width: 80%;
+	height: 60%;
+	border: 5px dotted black;
+	background: linear-gradient(black, white);
+	text-align: center;
+	display: none;
+}
+#myAccount img{
+	border-radius: 100%;
+}
+#closeAbout{
+	position: relative;
+	margin-left: 97%;
+	color: red;
+	border: none;
+	cursor: pointer;
+	font-size: 30px;
+}
+#closeAbout:hover{
+	box-shadow: -3px -3px 4px red;
+}
+footer{
+	color: white;
+	text-align: center;
+	font-family: 'Saira';
+}
