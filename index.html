@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>To do list</title>
+	<!-- icon -->
+	<link rel="icon" type="icon/png" href="profile.png">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- JavaScript(jQuery) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Saira' rel="stylesheet">
+</head>
+<body>
+<div class="body">
+	<div id="menu">
+		<!-- my profile -->
+		<p class="myName">
+			<a href="#myAccount">Dipen Maharjan</a>
+		</p>
+		
+		<ul id="sideBarItems">
+			<li><a href="">To Do</a></li>
+		</ul>
+
+		<p class="creatingItems">Create Items</p>
+		<div id="createElements">
+			<input type="text" id="items" placeholder="Add your items">
+			<button class="enterBtn">Enter</button>
+		</div>
+	</div>
+	<!-- creating my profile that is shown only when Dipen Maharjan is clicked -->
+	<div id="myAccount">
+		<button id="closeAbout">X</button>
+		<div>
+			<img src="profile.png" alt="profilePicture">
+			<h1>Dipen Maharjan</h1>
+			<p>Thank you for checking my application. <br>
+			Please follow me on social medias for more details:</p>
+		</div>
+	</div>
+	<!-- creating the contents to add todo items
+	The contents will be added until the browser is reloaded. After the browers is reloaded all the contents will be deleted as there is no database linked in this application -->
+	<div id="content">
+		<div class="addThis">
+			<p id="addingItems">ADD</p>
+			<input type="text" id="text" placeholder="Add a to-do list here and click add">
+		</div>
+		<ol id="lists"></ol>
+	</div>
+</div>	
+	<footer>
+		&copy; Dipen Maharjan 2018
+	</footer>
+</body>
+</html>
